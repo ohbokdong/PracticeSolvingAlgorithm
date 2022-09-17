@@ -16,6 +16,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 , [sol2](./week1/minj0i/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89-%EC%B5%9C%EC%86%8C%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.md)
 * sgmsgood - [sol1](./week1/sgmsgood/2022%EC%B9%B4%EC%B9%B4%EC%98%A4_%EB%91%90%ED%81%90%ED%95%A9%EA%B0%99%EA%B2%8C%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 , [sol2](./week1/sgmsgood/2022%EC%B9%B4%EC%B9%B4%EC%98%A4_%EC%B5%9C%EC%86%8C%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95.md)
+* younggeun0 - [sol1](./week1/younggeun0/question1.md), [sol2](./week1/younggeun0/question2.md)
 
 ---
 
