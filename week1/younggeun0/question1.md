@@ -49,7 +49,7 @@ function solution(queue1, queue2) {
 ### 남의 풀이
 
 * [다중 포인터를 이용한 풀이](https://gurtn.tistory.com/179)
-* 큐의 FIFO 성질을 이용해서 실제로 매번 배열 생성과 합을 구하지 않고 포인터를 이동하며 window의 값을 변경한 문제
+* 큐의 FIFO 성질을 이용해서 실제로 매번 배열 생성과 합을 구하지 않고 포인터를 이동하며 window의 값을 변경하는 문제
     * multi pointers + sliding window 패턴
 
 ```js
