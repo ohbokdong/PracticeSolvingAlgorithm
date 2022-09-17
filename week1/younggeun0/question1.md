@@ -49,12 +49,13 @@ function solution(queue1, queue2) {
 ### 남의 풀이
 
 * [다중 포인터를 이용한 풀이](https://gurtn.tistory.com/179)
-* 
+* 큐의 FIFO 성질을 이용해서 실제로 매번 배열 생성과 합을 구하지 않고 포인터를 이동하며 window의 값을 변경한 문제
+    * multi pointers + sliding window 패턴
 
 ```js
-const getQueueSum = (arr) => arr.reduce((acc, v) => acc + v, 0);
-
 function solution(queue1, queue2) {
+    const getQueueSum = (arr) => arr.reduce((acc, v) => acc + v, 0);
+
     let sumQ1 = getQueueSum(queue1);
     let sumQ2 = getQueueSum(queue2);
     
@@ -67,8 +68,13 @@ function solution(queue1, queue2) {
     //  |        | 
     // [3, 2, 7, 2, 4, 6, 5, 1]
 
-    //const end = queue1.length * 3; // 제한사항 1<= queue1의 길이 = queue2의 길이 <= 300,000
-    const end = queue1.length * 2; // 제한사항 1<= queue1의 길이 = queue2의 길이 <= 300,000
+    // 작업의 최대 경우의 수가 왜 queue1의 길이 * 3일까?
+    // - q1과 q2를 맞바뀐 경우 queue1.length * 2
+    // - q1과 q2가 맞바뀐 후 다시 찾는 경우 queue1.length * 3 
+    //  p1 ->    p2 ->
+    //  |        | 
+    // [4, 6, 5, 1, 3, 2, 7, 2]
+    const end = queue1.length * 3;
     
     for (let count = 0; count < end; count++) {
         if (sumQ1 === target) return count;
