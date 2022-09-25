@@ -7,7 +7,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week1 
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)\n
 Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 
 #### 참여
