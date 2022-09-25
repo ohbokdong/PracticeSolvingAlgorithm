@@ -7,8 +7,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week1 
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)\n
-Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 
 #### 참여
 
@@ -22,8 +22,8 @@ Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP >
 
 ### Week2
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928)
-Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
 
 
 #### 참여
@@ -37,8 +37,8 @@ Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 
 
 ### Week3
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
-Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
 
 
 #### 참여
@@ -50,8 +50,8 @@ Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT
 
 ### Week4
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
-Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
 
 
 #### 참여
@@ -64,8 +64,8 @@ Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 피보나치 
 
 ### Week5
 
-Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > ]()
-Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > ]()
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > ]()
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > ]()
 
 
 #### 참여
