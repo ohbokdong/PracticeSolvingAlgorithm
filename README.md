@@ -44,3 +44,4 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 #### 참여
 
 * younggeun0 - [sol1](./week3/younggeun0/question1.md), [sol2](./week3/younggeun0/question2.md)
+* sgmsgood - [sol1](./week3/sgmsgood/연습문제_정수제곱근판별.md), [sol2]()
