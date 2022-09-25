@@ -7,8 +7,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week1 
 
-1. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
-2. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 
 #### 참여
 
@@ -22,8 +22,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week2
 
-1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928)
-2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
+Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928)
+Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
 
 
 #### 참여
@@ -37,11 +37,39 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week3
 
-1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
-2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
+Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
 
 
 #### 참여
 
 * younggeun0 - [sol1](./week3/younggeun0/question1.md), [sol2](./week3/younggeun0/question2.md)
 * sgmsgood - [sol1](./week3/sgmsgood/연습문제_정수제곱근판별.md), [sol2]()
+
+---
+
+### Week4
+
+Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
+
+
+#### 참여
+
+* younggeun0 - [sol1](./week4/younggeun0/), [sol2](./week4/younggeun0/)
+* sgmsgood - [sol1](./week4/sgmsgood/), [sol2](./week4/sgmsgood/)
+* minj0i - [sol1](./week4/minj0i/), [sol2](./week4/minj0i/)
+
+---
+
+### Week5
+
+Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > ]()
+Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > ]()
+
+
+#### 참여
+
+* younggeun0 - [sol1](./week5/younggeun0/), [sol2](./week5/younggeun0/)
+* sgmsgood - [sol1](./week5/sgmsgood/), [sol2](./week5/sgmsgood/)
+* minj0i - [sol1](./week5/minj0i/), [sol2](./week5/minj0i/)
