@@ -28,6 +28,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 #### 참여
 
+* minj0i - [sol1](./week2/minj0i/submultiple_sum.md), [sol2](./week2/minj0i/max_min.md)
 * sgmsgood - [sol1](./week2/sgmsgood/%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C_%EC%95%BD%EC%88%98%EC%9D%98%ED%95%A9.md),
 [sol2](./week2/sgmsgood/%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92.md)
 * younggeun0 - [sol1](./week2/younggeun0/question1.md), [sol2](./week2/younggeun0/question2.md)
