@@ -57,7 +57,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 #### 참여
 
 * younggeun0 - [sol1](./week4/younggeun0/), [sol2](./week4/younggeun0/)
-* sgmsgood - [sol1](./week4/sgmsgood/question1.md), [sol2](./week4/sgmsgood/)
+* sgmsgood - [sol1](./week4/sgmsgood/question1.md), [sol2](./week4/sgmsgood/question2.md)
 * minj0i - [sol1](./week4/minj0i/), [sol2](./week4/minj0i/)
 
 ---
