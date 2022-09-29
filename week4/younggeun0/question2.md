@@ -26,22 +26,20 @@ function solution(n) {
 
 - 재귀로 다시 풀어보려고 했는데 13,14번 케이스에서 자꾸 에러 발생
     - [확인결과 재귀한도가 정해져 있어서 발생한 이슈같음](https://school.programmers.co.kr/questions/15243)
+        
         ⇒ 반복문으로 구하는게 더 나을 수도 있다…
 
 ```js
 function solution(n) {
-    // n은 2이상의 수
-    const answer = [0, 1];
+    const answer = [0, 1]; // n은 2이상의 수
     
-    // 1. 피보나치 수를 구하는 함수로 n까지의 피보나치 수를 구함
+    // 피보나치 수를 구하는 재귀 함수로 n번째 피보나치 수를 구할 때까지 재귀호출
     const addFibonacciNum = (i) => {
         if (answer.length === n + 1) return;
 
-        // 새로 구한 피보나치 수 추가
         answer.push((answer[i-1] + answer[i-2]) % 1234567);
         addFibonacciNum(++i);
     };
-
     addFibonacciNum(2);
     
     return answer[n];

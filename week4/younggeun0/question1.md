@@ -12,39 +12,39 @@
 
 ```js
 function solution(answers) {
-  var answer = [];
+    var answer = [];
 
-  // 학생들 패턴
-  var student = [
-    [1, 2, 3, 4, 5],
-    [2, 1, 2, 3, 2, 4, 2, 5],
-    [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
-  ];
+    // 학생들 패턴
+    var student = [
+        [1, 2, 3, 4, 5],
+        [2, 1, 2, 3, 2, 4, 2, 5],
+        [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
+    ];
 
-  var studentCnt = [0, 0, 0]; // 학생별 맞춘 문제 수
+    var studentCnt = [0, 0, 0]; // 학생별 맞춘 문제 수
 
-  for (var i in answers) {
-    // for-in 으로 인덱스 사용
-    if (student[0][i % 5] == answers[i]) {
-      studentCnt[0]++;
+    for (var i in answers) {
+        // for-in 으로 인덱스 사용
+        if (student[0][i % 5] == answers[i]) {
+            studentCnt[0]++;
+        }
+        if (student[1][i % 8] == answers[i]) {
+            studentCnt[1]++;
+        }
+        if (student[2][i % 10] == answers[i]) {
+            studentCnt[2]++;
+        }
     }
-    if (student[1][i % 8] == answers[i]) {
-      studentCnt[1]++;
-    }
-    if (student[2][i % 10] == answers[i]) {
-      studentCnt[2]++;
-    }
-  }
 
-  var max = Math.max(...studentCnt);
+    var max = Math.max(...studentCnt);
 
-  for (var i in studentCnt) {
-    if (studentCnt[i] == max) {
-      answer.push(Number(i) + 1);
+    for (var i in studentCnt) {
+        if (studentCnt[i] == max) {
+            answer.push(Number(i) + 1);
+        }
     }
-  }
 
-  return answer;
+    return answer;
 }
 ```
 
@@ -54,26 +54,26 @@ function solution(answers) {
 
 ```js
 function solution(answers) {
-  const answer = [];
-  const students = [
-    [1, 2, 3, 4, 5],
-    [2, 1, 2, 3, 2, 4, 2, 5],
-    [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
-  ];
-  const cnts = Array(3).fill(0);
+    const answer = [];
+    const students = [
+        [1, 2, 3, 4, 5],
+        [2, 1, 2, 3, 2, 4, 2, 5],
+        [3, 3, 1, 1, 2, 2, 4, 4, 5, 5],
+    ];
+    const cnts = Array(3).fill(0);
 
-  answers.forEach((answer, idx) => {
-    students[0][idx % students[0].length] === answer && cnts[0]++;
-    students[1][idx % students[1].length] === answer && cnts[1]++;
-    students[2][idx % students[2].length] === answer && cnts[2]++;
-  });
+    answers.forEach((answer, idx) => {
+        students[0][idx % students[0].length] === answer && cnts[0]++;
+        students[1][idx % students[1].length] === answer && cnts[1]++;
+        students[2][idx % students[2].length] === answer && cnts[2]++;
+    });
 
-  const max = Math.max(...cnts);
+    const max = Math.max(...cnts);
 
-  cnts.forEach((cnt, idx) => {
-    if (cnt === max) answer.push(idx + 1);
-  });
+    cnts.forEach((cnt, idx) => {
+        if (cnt === max) answer.push(idx + 1);
+    });
 
-  return answer;
+    return answer;
 }
 ```
