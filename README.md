@@ -58,7 +58,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 * younggeun0 - [sol1](./week4/younggeun0/question1.md), [sol2](./week4/younggeun0/question2.md)
 * sgmsgood - [sol1](./week4/sgmsgood/question1.md), [sol2](./week4/sgmsgood/question2.md)
-* minj0i - [sol1](./week4/minj0i/), [sol2](./week4/minj0i/)
+* minj0i - [sol1](./week2/minj0i/brute-force.md), [sol2](./week2/minj0i/fibonacci.md)
 
 ---
 
