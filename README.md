@@ -64,8 +64,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ### Week5
 
-* Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > ]()
-* Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > ]()
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > 3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > summer/winter Coding (2019) > 멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
 
 
 #### 참여
