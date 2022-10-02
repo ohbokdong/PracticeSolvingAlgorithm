@@ -45,6 +45,6 @@ function solution(n) {
 
     addFibonacciNum(2);
     
-    return fibonacciNums[n];
+    return fibonacciNums[n] % 1234567;
 }
 ```
