@@ -12,8 +12,6 @@ class Solution {
             questionIndex++
             answerMap.put(questionIndex, answerCount)
         }
-    
-        
         
         answerMap.forEach{
             if(maxCount < it.value) {
