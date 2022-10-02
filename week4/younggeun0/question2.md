@@ -31,17 +31,20 @@ function solution(n) {
 
 ```js
 function solution(n) {
-    const answer = [0, 1]; // n은 2이상의 수
+    // n은 2이상의 수
+    const fibonacciNums = [0, 1];
     
-    // 피보나치 수를 구하는 재귀 함수로 n번째 피보나치 수를 구할 때까지 재귀호출
+    // 피보나치 수를 구하는 함수로 n까지의 피보나치 수를 구함
     const addFibonacciNum = (i) => {
-        if (answer.length === n + 1) return;
+        if (fibonacciNums.length === n + 1) return;
 
-        answer.push((answer[i-1] + answer[i-2]) % 1234567);
+        // 새로 구한 피보나치 수 추가
+        fibonacciNums.push(fibonacciNums[i-1] % 1234567  + fibonacciNums[i-2] % 1234567);
         addFibonacciNum(++i);
     };
+
     addFibonacciNum(2);
     
-    return answer[n];
+    return fibonacciNums[n] % 1234567;
 }
 ```
