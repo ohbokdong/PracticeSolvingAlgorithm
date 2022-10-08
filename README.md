@@ -59,11 +59,15 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 </div>
 </details>
 
-### Week4
+</div>
+</details>
+
+<details>
+<summary><H3>Week4</H3></summary>
+<div markdown="1">
 
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
 * Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)
-
 
 #### 참여
 
@@ -71,16 +75,24 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 * sgmsgood - [sol1](./week4/sgmsgood/question1.md), [sol2](./week4/sgmsgood/question2.md)
 * minj0i - [sol1](./week4/minj0i/brute-force.md), [sol2](./week4/minj0i/fibonacci.md)
 
----
+</div>
+</details>
 
-### Week5
+</div>
+</details>
+
+<details>
+<summary><H3>Week5</H3></summary>
+<div markdown="1">
+
 * Lv0. [코딩테스트 연습 > 코딩테스트 입문 > 옹알이](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > 3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)
 * Lv2. [프로그래머스 > 코딩테스트 연습 > summer/winter Coding (2019) > 멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
-
 
 #### 참여
 
 * younggeun0 - [sol0](./week5/sgmsgood/question0.md), [sol1](./week5/younggeun0/question1.md), [sol2](./week5/younggeun0/question2.md)
 * sgmsgood - [sol1](./week5/sgmsgood/), [sol2](./week5/sgmsgood/)
 * minj0i - [sol1](./week5/minj0i/), [sol2](./week5/minj0i/)
+</div>
+</details>
