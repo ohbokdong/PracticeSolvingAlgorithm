@@ -5,7 +5,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ---
 <details>
-<summary>### Week1</summary>
+  <summary><H3>Week1</H3></summary>
 <div markdown="1">
 
 ### Week1 
