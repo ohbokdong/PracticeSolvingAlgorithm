@@ -5,10 +5,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 
 ---
 <details>
-  <summary><H3>Week1</H3></summary>
+<summary><H3>Week1</H3></summary>
 <div markdown="1">
-
-### Week1 
 
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 완전탐색 > 최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
 * Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO TECH INTERNSHIP > 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
@@ -25,14 +23,12 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 </div>
 </details>
 
-
----
-
-### Week2
-
+<details>
+<summary><H3>Week2</H3></summary>
+<div markdown="1">
+  
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 약수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12928)
 * Lv2. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
-
 
 #### 참여
 
@@ -41,20 +37,27 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 [sol2](./week2/sgmsgood/%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C_%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92.md)
 * younggeun0 - [sol1](./week2/younggeun0/question1.md), [sol2](./week2/younggeun0/question2.md)
 
----
+</div>
+</details>
 
-### Week3
+</div>
+</details>
 
+<details>
+<summary><H3>Week3</H3></summary>
+<div markdown="1">
+  
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 연습문제 > 정수 제곱근 판별](https://school.programmers.co.kr/learn/courses/30/lessons/12934)
 * Lv2. [프로그래머스 > 코딩테스트 연습 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
-
 
 #### 참여
 
 * younggeun0 - [sol1](./week3/younggeun0/question1.md), [sol2](./week3/younggeun0/question2.md)
 * sgmsgood - [sol1](./week3/sgmsgood/연습문제_정수제곱근판별.md), [sol2]()
 * minj0i - [sol1](./week3/minj0i/square-root.md)
----
+
+</div>
+</details>
 
 ### Week4
 
