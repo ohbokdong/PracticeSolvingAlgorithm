@@ -81,7 +81,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 </div>
 </details>
 
-<details>
+<details open>
 <summary><H3>Week5 *</H3></summary>
 <div markdown="1">
 
