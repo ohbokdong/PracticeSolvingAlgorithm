@@ -1,57 +1,73 @@
-### [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 > 3진법 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935)
+### [프로그래머스 > 코딩테스트 연습 > 옹알이](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
 
 - 입력
-  - 자연수 n(1<= n <= 100,000,000)
+  - 머쓱이의 발음조합으로 표현 가능할지 모르는 발음 배열(babbling)
+    - 1 <= babbling <= 10
+    - 1 <= babbling[i]의 길이 <= 30
+    - 문자열은 소문자로만 구성
 - 출력
-  - n을 3진법 상에서 앞뒤로 뒤집은 후, 다시 10진법으로 표현한 수
+  - 머쓱이가 발음 가능한 옹알이 단어의 개수
 
-### 내 풀이(이전 풀이)
+### 내 풀이
 
-1. 10진법 수 n을 3으로 나눈 나머지들을 문자열로 누적(뒤집어진 3진법 수의 문자열)
-2. 뒤집힌 3진법 수를 10진법으로 재변환
+1. 머쓱이가 발음 가능한 조합 배열 생성(coos)
+2. reduce로 입력된 babbling 단어들을 순회하며 발음가능 여부 확인 후 누적합을 구함
+3. 예외 조건 - 머쓱이는 연속된 같은 발음을 못 함
+4. coos 순회하며 발음 가능한 문자열들로 bWord에서 계속 제거
+5. coos 순회가 끝날 때 bWord의 길이가 0인 경우가 발음 가능한 경우, 이 때만 +1 누적합
 
 ```js
-function solution(n) {
-    // 1. 10진법 수 n을 뒤집힌 3진법 문자열(reveresedTernaryStr)로 변환
-    let reversedTernaryStr = "";
-    while (n > 0) {
-        const r = n % 3;
-        reversedTernaryStr = reversedTernaryStr + r; // 붙이는 방향으로 3진법 수의 순서 반전
-        n = parseInt(n / 3);
-    }
+function solution(babbling) {
+    // 조카가 발음할 수 있는 네가지 조합
+    const coos = ["aya", "ye", "woo", "ma"];
     
-    // 2. 10진법 수로 재변환
-    return [...reversedTernaryStr].reduce((acc, num, idx) => {
-        return acc + parseInt(num) * Math.pow(3, reversedTernaryStr.length - (idx + 1));
+    return babbling.reduce((cnt, bWord) => {
+
+        for (let i=0; i<coos.length; i++) {
+            const coo = coos[i];
+
+            // 같은 발음이 연속된 경우
+            if (bWord.indexOf(coo + coo) != -1) {
+                break;
+            }
+
+            // bWord에서 발음 가능한 단어를 제거
+            while(bWord.indexOf(coo) !== -1) {
+                 bWord = bWord.slice(0, bWord.indexOf(coo)) +
+                         bWord.slice(bWord.indexOf(coo) + coo.length);
+            }
+        }
+        
+        if (bWord.length === 0) {
+            return cnt + 1;
+        } else {
+            return cnt;
+        }
     }, 0);
 }
 ```
 
 ### 남의 풀이
 
-- JS에선 `10진수.toString(변환할 진수)`로 쉽게 진법 변환이 가능
-
-1. n을 `toString`을 이용해서 3진법 수 문자열로 변환
-2. `...` 스프레드 연산자로 각 자리 문자를 갖는 배열로 바꾼 뒤 `reverse` 메서드로 순서를 뒤집음
-3. `join` 메서드로 배열을 다시 하나의 문자열로 합침
-4. `parseInt` 메서드로 기존 3진법의 수를 10진법의 수로 변환
+1. [Array.prototype.some](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/some) 메서들르 사용하여 연속된 단어인지 판별, 연속된 경우 다음 단어로 continue
+2. [String.prototype.replaceAll](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) 메서드로 옹알이 단어들을 모두 빈 문자열로 치환
+3. 문자열의 길이가 0과 같은 경우만 카운트하여 발음 가능한 단어 수 누적합을 구함
 
 ```js
-const solution = (n) => {
-    return parseInt([...n.toString(3)].reverse().join(""), 3);
+function solution(babbling) {
+    let df = [ "aya", "ye", "woo", "ma"];
+    let res = 0;
+    for(let w of babbling) {
+        if(df.some(f => w.includes(f+f))) continue;
+
+        let rest = 
+           df.reduce((a, f) => a.replaceAll(f, ""), w);
+
+        if (rest.length > 0) continue;
+
+        res++;
+    }
+
+    return res;
 }
-
-const solution = (n) => {
-    // when n is 45
-    const ternaryStr = n.toString(3); // "1200"
-
-    const charArr = [...ternaryStr]; // ['1','2','0','0']
-
-    const reversedTernaryStr = charArr.reverse().join(""); // "0021"
-
-    const decimal = parseInt(reversedTernaryStr, 3); // 7
-
-    return decimal;
-}
-solution(45)
 ```
