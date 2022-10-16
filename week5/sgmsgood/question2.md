@@ -1,34 +1,50 @@
-
-# Lv2. [프로그래머스 > 코딩테스트 연습 > summer/winter Coding (2019) > 멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048)
-
-* 입력 - 
-* 출력 - 
-
-### 내 풀이
-
-* 내 풀이 내용
-    * 규칙을 찾아내고자 했지만 찾을수 없어서 다른 사람들의 풀이만 참조함 
-
-```kotlin
--
-```
-
-### 남의 풀이
-
-* 남의 풀이 내용
-
-
+* 나의 풀이
 ```kotlin
 class Solution {
-    fun gcd(a: Int, b: Int): Long {
-        if (a==0) return b.toLong()
-        return gcd(b%a,a)
+    fun solution(n: Int): Int {
+        var answer: Int = 0
+        
+        var ternary = changeToReverseTernary(n)
+        
+        var list = ternary.split("").filter{it != ""}.map{it.toInt()}
+            
+        list.forEachIndexed{ i, e ->
+            var value = getValue(((list.size-1) - i), 1)
+            
+            print("${value * e} / ")
+            
+            answer += value * e
+        }
+        
+        return answer
     }
-
-    fun solution(w: Int, h: Int): Long {
-        var wl = w.toLong()
-        var hl = h.toLong()
-        return wl*hl-wl-hl+gcd(w,h)
+    
+    fun changeToReverseTernary(n: Int): String {
+        var start = n
+        var ternary = ""
+        
+        do {
+            ternary += (start % 3).toString()
+            start /= 3
+        } while(start >= 1)
+        
+        return ternary
+    }
+    
+    fun getValue(n: Int, result: Int): Int {
+        if(n == 0) {
+            return result
+        } 
+        
+        return getValue(n - 1, result * 3)
+    }
+}
+```
+* 다른 사람의 풀이
+```kotlin
+class Solution {
+    fun solution(n: Int): Int {
+        return n.toString(3).reversed().toInt(3)
     }
 }
 ```
