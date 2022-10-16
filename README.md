@@ -102,7 +102,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 <div markdown="1">
 
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 탐욕법(greedy) > 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
-* Lv2. [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > 이진 변환 반복하기] (https://school.programmers.co.kr/learn/courses/30/lessons/70129)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > 이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
 
 #### 참여
 
