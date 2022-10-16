@@ -81,8 +81,8 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 </div>
 </details>
 
-<details open>
-<summary><H3>Week5 *</H3></summary>
+<details>
+<summary><H3>Week5</H3></summary>
 <div markdown="1">
 
 * Lv0. [코딩테스트 연습 > 코딩테스트 입문 > 옹알이](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
@@ -94,5 +94,20 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 * younggeun0 - [sol1](./week5/younggeun0/question1.md), [sol2](./week5/younggeun0/question2.md), [sol3](./week5/younggeun0/question3.md)
 * sgmsgood - [sol1](./week5/sgmsgood/question1.md), [sol2](./week5/sgmsgood/question2.md) [sol3](./week5/sgmsgood/question3.md)
 * minj0i - [sol1](./week5/minj0i/question1.md), [sol2](./week5/minj0i/question2.md), [sol3](./week5/minj0i/question3.md)
+</div>
+</details>
+
+<details open>
+<summary><H3>Week6 *</H3></summary>
+<div markdown="1">
+
+* Lv1. [프로그래머스 > 코딩테스트 연습 > 탐욕법(greedy) > 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+* Lv2. [프로그래머스 > 코딩테스트 연습 > 월간 코드 챌린지 시즌1 > (https://school.programmers.co.kr/learn/courses/30/lessons/70129)
+
+#### 참여
+
+* younggeun0 - [sol1](./week5/younggeun0/question1.md), [sol2](./week5/younggeun0/question2.md)
+* sgmsgood - [sol1](./week5/sgmsgood/question1.md), [sol2](./week5/sgmsgood/question2.md)
+* minj0i - [sol1](./week5/minj0i/question1.md), [sol2](./week5/minj0i/question2.md)
 </div>
 </details>
