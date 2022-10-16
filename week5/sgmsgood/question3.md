@@ -17,7 +17,7 @@
 
 * 남의 풀이 내용
     * 총 정사각형의 개수 - (세로 개수 + 가로 개수) + 가로&세로의 최대 공약수
-    * ![solution]()
+    * ![solution](https://github.com/ohbokdong/PracticeSolvingAlgorithm/blob/main/week5/sgmsgood/sol3.png)
 
 ```kotlin
 class Solution {
