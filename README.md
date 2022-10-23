@@ -98,7 +98,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 </details>
 
 <details>
-<summary><H3>Week7</H3></summary>
+<summary><H3>Week6</H3></summary>
 <div markdown="1">
 
 * Lv1. [프로그래머스 > 코딩테스트 연습 > 탐욕법(greedy) > 체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
