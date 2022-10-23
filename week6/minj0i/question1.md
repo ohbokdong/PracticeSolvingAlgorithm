@@ -11,10 +11,12 @@
 
 ```js
 function solution(n, lost, reserve) {
+    // 여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있습니다를 제외하기
     var realLost = lost.filter(a => !reserve.includes(a));
     var realReserve = reserve.filter(a => !lost.includes(a));
     
     return n - realLost.filter(a => {
+      //Math.abs 절대값을 사용함
         var b = realReserve.find(r => Math.abs(r-a) <= 1);
         if(!b) return true;
         realReserve = realReserve.filter(r => r !== b);
