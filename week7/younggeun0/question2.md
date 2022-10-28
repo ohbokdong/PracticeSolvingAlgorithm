@@ -174,3 +174,43 @@ function solution(order) {
     }
 }
 ```
+
+### 남의 풀이
+
+- [awesand님의 풀이](https://school.programmers.co.kr/learn/courses/30/lessons/131704/solution_groups?language=javascript)
+
+```jsx
+function solution(order) {
+    let total = 0;
+
+		// 컨테이너 벨트로 부터 오는 박스는 1부터 순서대로 오므로 box란 number 변수를 사용
+    let box = 1; // 컨테이너 벨트 박스 번호
+    const stack = []; // 서브 컨테이너 벨트
+
+    while (true) {
+				// 모든 박스가 실린 경우
+        if (order.length === total) break;
+
+        // 실을 박스와 컨테이너 벨트 박스가 같은 경우
+        if (order[total] === box) {
+            total++;
+            box++;
+        } else if (stack[stack.length - 1] === order[total]){
+						// 서브 컨테이너 벨트에 올라간 마지막 박스와 올릴 박스 비교, 같다면
+            stack.pop();
+            total++;
+        } else if (stack[stack.length - 1] !== order[total]) {
+						// 서브 컨테이너 벨트에 올라간 마지막 박스와 올릴 박스가 같지 않으면
+
+						// 실을 박스가 서브 컨테이너에서 꺼낼 수 있는 박스보다 작은 경우, 더 실을 수 없음
+            if (order[total] < stack[stack.length - 1]) {
+                break;
+            }
+            stack.push(box);
+            box++;
+        }
+    }
+
+    return total;
+}
+```
