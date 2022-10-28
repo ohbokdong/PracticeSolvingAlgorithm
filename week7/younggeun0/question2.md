@@ -16,7 +16,7 @@
         3. 보조 컨테이너에서 최상단 상자와 기존 컨테이너 제일 앞의 상자가 택배 기사가 원하는 상자가 아니라면 종료
     3. 계산된 실은 상자 수 반환
 
-```jsx
+```js
 function solution(order) {
     // 컨테이너, 보조컨테이너 생성
     const container = order.map((_, i) => {
@@ -67,7 +67,7 @@ function solution(order) {
 - shift로 container 배열을 조작하던 걸 pointer p를 두고 이동시키도록 수정
 - 런타임 에러가 계속 발생, 재귀 콜스택 제한 때문에 걸린 듯 함
 
-```jsx
+```js
 function solution(order) {
     // 컨테이너, 보조컨테이너 생성
     let p = 0;
@@ -106,6 +106,67 @@ function solution(order) {
         p++;
         
         return loadBox(container[p], box);
+    }
+    
+    function boxOnSubContainer() {
+        return subcontainer[subcontainer.length - 1];
+    }
+}
+```
+
+### 내 풀이3
+
+- 재귀 방식에서 반복 방식으로 변경하니 풀림
+
+```js
+function solution(order) {
+    // 컨테이너, 보조컨테이너 생성
+    let p = 0;
+    const container = order.map((_, i) => {
+        return i + 1;
+    });
+    const subcontainer = [];
+    // 실은 상자 수를 저장할 변수 생성
+    let load = 0;
+    
+    // 택배 기사가 요청한 상자 순서대로 순회
+    for (let i=0; i<order.length; i++) {
+        if (!loadBox(order[i])) {
+            break;
+        }
+    }
+    
+    return load;
+
+    
+    // nested helper functions
+    function loadBox(box) {
+        let loadable = true;
+        
+        // 재귀 방식 -> 반복 방식
+        while(loadable) {
+            if (boxOnContainer() == null || boxOnContainer() > box) {
+                if (boxOnSubContainer() === box) {
+                    load++;
+                    subcontainer.pop();
+										break;
+                }
+                loadable = false;
+                break;
+            } else if (boxOnContainer() === box) {
+                load++;
+                p++;
+                break;
+            }
+
+            subcontainer.push(boxOnContainer());
+            p++;
+        }
+        return loadable;
+    }
+
+    function boxOnContainer() {
+        return container[p];
     }
     
     function boxOnSubContainer() {
