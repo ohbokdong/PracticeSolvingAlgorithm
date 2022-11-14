@@ -1,4 +1,4 @@
-# [프로그래머스 > 코딩테스트 연습 > 무슨 문제](https://school.programmers.co.kr/learn/challenges?levels=1%2C2)
+# [프로그래머스 > 코딩테스트 연습 > 삼총사](https://school.programmers.co.kr/learn/courses/30/lessons/131705)
 
 * 입력 - 숫자 배열
 * 출력 - 세 숫자를 더해서 합이 0이 되는 경우의 수
