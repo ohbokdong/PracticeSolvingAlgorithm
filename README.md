@@ -140,6 +140,7 @@ Everyweek choose 2 questions from [programmers](https://school.programmers.co.kr
 * younggeun0 - [sol1](./week8/younggeun0/question1.md), [sol2](./week8/younggeun0/question2.md)
 * sgmsgood - [sol1](./week8/sgmsgood/question1.md), [sol2](./week8/sgmsgood/question2.md)
 * minj0i - [sol1](./week8/minj0i/question1.md), [sol2](./week8/minj0i/question2.md)
+* chchoe - [sol1](./week8/chchoe/question1.md), [sol2](./week8/chchoe/question2.md)
 </div>
 </details>
 
